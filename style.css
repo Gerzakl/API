@@ -1,0 +1,24 @@
+*{
+	box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, a, p, ul{
+	margin: 0;
+	font-family: "Trebuchet MS";
+	color: #565656;
+}
+
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.weather{
+	width: 400px;
+	min-height: 350px;
+	padding: 20px;
+	border-radius: 20px;
+	background-color: #dedbee;
+}
